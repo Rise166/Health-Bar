@@ -42,7 +42,7 @@ healthBar()
     self endon("disconnect");
     level endon("end_game");
     self.healthprogressbar = createPrimaryProgressBar();
-    self.healthprogressbar setPoint ("CENTER","CENTER", -360, 110);
+    self.healthprogressbar setPoint ("CENTER","CENTER", 360, 90);
     self.healthprogressbar.color = (0,0,0);
     self.healthprogressbar.bar.color = (1,0,0);
     self.healthprogressbar.alpha = 1;
